@@ -1,3 +1,3 @@
 def wagon_start
-  'That's how it starts'
+  "That's how it starts"
 end
