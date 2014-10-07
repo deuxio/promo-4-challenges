@@ -2,7 +2,10 @@ def coach_answer(your_message)
   # TODO: return coach answer to your_message
   if your_message.upcase == "I AM GOING TO WORK RIGHT NOW!"
     ""
-  elsif your_message[-1,1] == "?"
+  # apparemment ma méthode est pas top :'(
+  # elsif your_message[-1,1] == "?"
+  # vaut mieux utiliser celle ci
+  elsif your_message.end_with? "?"
     "Silly question, get dressed and go to work!"
   else
     "I don't care, get dressed and go to work!"
