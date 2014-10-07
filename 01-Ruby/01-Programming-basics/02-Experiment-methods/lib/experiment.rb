@@ -4,7 +4,7 @@
 
 def get_rid_of_surrounding_whitespaces(a_string)
   # TODO: return a copy of the string with leading and trailing whitespaces removed
-  a_string.lstrip.rstrip
+  a_string.strip
   # example: get_rid_of_surrounding_whitespaces("  hey yo  ") => "hey yo"
 end
 
