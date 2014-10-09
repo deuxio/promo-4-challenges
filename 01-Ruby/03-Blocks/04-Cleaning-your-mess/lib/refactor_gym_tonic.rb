@@ -21,6 +21,7 @@ def hop_hop_hop(number_of_exercises)
     i.times { message << "hop! " }
     message << "One more time..\n"
   end
+  puts message
 end
 
 hop_hop_hop(6)
