@@ -8,7 +8,7 @@ describe "#poor_calories_counter" do
   it "should compute number of calories" do
     poor_calories_counter("Big Mac", "French fries", "Coca").must_equal 590
   end
-  
+
 end
 
 describe "#calories_counter" do
