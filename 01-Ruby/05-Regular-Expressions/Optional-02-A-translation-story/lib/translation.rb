@@ -22,7 +22,7 @@ STRINGS = {
 def translation(a_string, a_language = "en")
   # TODO: your code goes here
   path = a_string.split(".")
-  translated_text = Hash.new
+  translated_text = {}
 
   for i in 0..path.length - 1
     if i == 0
@@ -38,8 +38,3 @@ def translation(a_string, a_language = "en")
     translated_text[a_language.to_sym]
   end
 end
-
-# p translation('home.intro', 'fr') # => 'Bienvenue sur Le Wagon'
-# p translation('home.intro', 'es') # => 'Welcome on Le Wagon'
-# p translation('home.content.goodbye') # => 'Goodbye'
-# p translation('unvalid.path','en') # => ''
