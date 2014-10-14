@@ -12,11 +12,8 @@ def run_game(attempt, grid, start_time, end_time)
   # TODO: runs the game and return detailed hash of result
   result = {}
   result[:time] = end_time - start_time
-
-
   if attempt.downcase.split(//).all? { |letter| grid.map(&:downcase).include? letter }
-    url = "http://api.wordreference.com/0.8/80143/json/enfr/#{attempt.downcase}"
-    open(url) do |stream|
+    open("http://api.wordreference.com/0.8/80143/json/enfr/#{attempt.downcase}") do |stream|
       translations = JSON.parse(stream.read)
       if translations['Error']
         result[:message] = "not an english word"
