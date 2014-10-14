@@ -1,6 +1,6 @@
 def analyze(text)
   # TODO: should analyze the text, and return the result hash with all features
-  analysis = {
+  {
     character_count: text.split(//).length,
     line_count: text.split(/\n/).length,
     word_count: text.scan(/\w+/).length,
