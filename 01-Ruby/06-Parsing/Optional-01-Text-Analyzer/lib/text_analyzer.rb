@@ -1,5 +1,8 @@
+require 'open-uri'
+
 def analyze(t)
   # TODO: should analyze the t, and return the result hash with all features
+
   {
     character_count: t.split(//).count,
     line_count: t.split(/\n/).count,
@@ -11,4 +14,7 @@ def analyze(t)
   }
 end
 
-# analyze("salut machin")
+# open("http://www.rubyinside.com/book/oliver.txt") do |stream|
+#   texte = File.open(stream.read)
+#   analyse(texte)
+# end

@@ -30,3 +30,5 @@ def run_game(attempt, grid, start_time, end_time)
   end
   result
 end
+
+Eric STUDIO LAREDO <anna@studio-laredo.fr>
