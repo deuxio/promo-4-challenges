@@ -1,5 +1,5 @@
 class Job
-  # attr_accessor = :title, :company, :desc, :income_mth
+  attr_accessor :title, :company, :desc, :income_mth
 
   def initialize(title, company, desc, income_mth)
     @title = title
@@ -11,6 +11,7 @@ class Job
   def incomesup?(price)
     @income_mth > price
   end
+
 end
 
 # require_relative "lib/job.rb"
