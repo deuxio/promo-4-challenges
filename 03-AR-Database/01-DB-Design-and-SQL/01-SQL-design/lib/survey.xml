@@ -44,15 +44,11 @@
 <row name="name" null="1" autoincrement="0">
 <datatype>CHAR</datatype>
 <default>NULL</default></row>
-<row name="surveys_id" null="1" autoincrement="0">
-<datatype>TINYINT</datatype>
-<default>NULL</default><relation table="surveys" row="id" />
-</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="353" y="175" name="surveys">
+<table x="344" y="132" name="surveys">
 <row name="id" null="1" autoincrement="1">
 <datatype>TINYINT</datatype>
 <default>NULL</default></row>
@@ -64,7 +60,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="810" y="226" name="answers">
+<table x="820" y="305" name="answers">
 <row name="id" null="1" autoincrement="1">
 <datatype>TINYINT</datatype>
 <default>NULL</default></row>
@@ -79,7 +75,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="600" y="125" name="questions">
+<table x="520" y="195" name="questions">
 <row name="id" null="1" autoincrement="1">
 <datatype>TINYINT</datatype>
 <default>NULL</default></row>
