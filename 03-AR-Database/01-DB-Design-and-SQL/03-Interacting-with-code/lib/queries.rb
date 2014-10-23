@@ -4,12 +4,12 @@ def number_of_rows(db, table_name)
   # TODO: count number of rows in table table_name
   nb = db.execute <<-SQL
 
-  SELECT COUNT(*)
+  SELECT COUNT(*) as count
   FROM #{table_name};
 
   SQL
 
-  nb.flatten[0]
+  nb[0]['count']
 end
 
 def sorted_artists(db)
@@ -22,7 +22,7 @@ def sorted_artists(db)
 
   SQL
 
-  sa.flatten
+  sa.map { |i| i['name']}
 end
 
 def love_tracks(db)
@@ -35,7 +35,7 @@ def love_tracks(db)
 
   SQL
 
-  lt.flatten
+  lt.map { |i| i['name']}
 end
 
 def long_tracks(db, min_length)
@@ -48,5 +48,5 @@ def long_tracks(db, min_length)
 
   SQL
 
-  lt.flatten
+  lt.map { |i| i['name']}
 end
