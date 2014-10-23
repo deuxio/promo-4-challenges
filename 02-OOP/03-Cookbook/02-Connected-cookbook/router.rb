@@ -1,5 +1,4 @@
 require_relative 'controller'
-require_relative 'marmiton'
 
 class Router
   def initialize(controller)
