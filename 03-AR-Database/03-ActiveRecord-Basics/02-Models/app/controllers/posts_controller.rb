@@ -22,9 +22,7 @@ class PostsController
     @view.display("update")
     index
     post = Post.find(@view.post_id)
-    post.name = @view.post_name
-    post.url = @view.post_url
-    post.save
+    post.update_attributes(name: @view.post_name, url: @view.post_url)
   end
 
   def destroy
