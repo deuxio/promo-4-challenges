@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
+  default_scope order('votes DESC')
   belongs_to :user
   validates :name, :url, :user, presence: true
   validates :name, length: { minimum: 5 }
