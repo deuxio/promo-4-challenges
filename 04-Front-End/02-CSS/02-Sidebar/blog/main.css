@@ -1,5 +1,42 @@
+body {
+  font-weight: 300;
+}
+
 .container {
   margin: 0 auto;
-  width: 840px;
-	font-family: 'Open Sans', sans-serif;
+  width: 720px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul
+{
+  list-style:none;
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+
+nav a
+{
+  display:block;
+  width:100px;
+}
+
+nav li
+{
+  display:inline-block;
+}
+
+nav{
+  border-bottom: 1px dotted grey;
+  padding: 10px;
+}
+
+footer{
+  border-top: 1px dotted grey;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
 }
