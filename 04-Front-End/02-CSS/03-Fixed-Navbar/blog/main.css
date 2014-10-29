@@ -1,5 +1,44 @@
 .container {
   margin: 0 auto;
   width: 840px;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+
+header {
+  background: black;
+  color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+header h1 {
+  display: inline-block;
+  float:left;
+}
+
+nav {
+  display: inline-block;
+  float:right;
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  line-height: 100px;
+
+  color: white;
+}
+
+.content{
+  margin-top: 110px;
+}
+
+.nav-content {
+  margin: 0 auto;
+  width: 840px;
+}
+
