@@ -1,6 +1,51 @@
 .container {
-  margin: 0 auto;  
+  margin: 0 auto;
   width: 840px;
 }
 
-/*Add some CSS rules to design your form */ 
+body {
+  font-weight: 300px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+input {
+  border: 1px solid #AAA;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.input-form {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 300px;
+}
+
+input[type="submit"] {
+  background: #87D37C;
+  padding: 10px;
+  width: 100%;
+  border-color: #26A65B;
+  margin-top: 20px
+}
+
+.form-container {
+  width:400px;
+  background-color: #DADFE1;
+  padding: 30px;
+  border-radius: 3px;
+}
