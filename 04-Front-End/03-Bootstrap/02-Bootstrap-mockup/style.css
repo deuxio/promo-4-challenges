@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image:url(grid.jpg);
+}
+
+.smaller-modal {
+  width: 350px;
+}
+
+.smaller-modal-body {
+  padding: 35px;
+}
+
+
+.banner {
+  color:black;
+  background-color:white;
+  background-image:url(banner.jpg);
+  padding-top: 100px;
+  padding-bottom: 230px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow:-3px 2px 1px #666;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  text-shadow:-3px 1px 1px #CCC;
+}
+
+h2 {
+  font-size: 18px;
+  text-shadow:-1px 1px 1px #FFF;
+  padding: 10px;
+}
+
+.features img {
+  width:100px;
+  height: 100px;
+  margin: 20px;
+}
+
+#footer{
+  background: #424242;
+  padding: 40px 0;
+  color:white;
+}
+
+.vertical-separator {
+  padding-top: 0.5em;
+  padding-bottom: 3em;
+}
