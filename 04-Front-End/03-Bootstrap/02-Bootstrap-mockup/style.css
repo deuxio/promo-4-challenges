@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   background-image:url(grid.jpg);
 }
 
@@ -13,8 +14,6 @@ body {
 
 
 .banner {
-  color:black;
-  background-color:white;
   background-image:url(banner.jpg);
   padding-top: 100px;
   padding-bottom: 230px;
@@ -26,15 +25,14 @@ body {
 
 h1 {
   font-size: 48px;
-  text-shadow:-3px 2px 1px #666;
+  text-shadow:-2px 1px 1px #DDD;
   padding: 10px;
-  font-family: 'Lobster', cursive;
+  font-weight: 400;
 }
 
 .navbar-brand {
-  font-family: 'Lobster', cursive;
-  font-size: 28px;
-  text-shadow:-3px 1px 1px #CCC;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 h2 {
@@ -52,7 +50,6 @@ h2 {
 #footer{
   background: #424242;
   padding: 40px 0;
-  color:white;
 }
 
 .vertical-separator {

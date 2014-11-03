@@ -5,6 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 720px;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -39,4 +40,7 @@ footer{
 
 h1{
   text-align: center;
+=======
+	font-family: 'Open Sans', sans-serif;
+>>>>>>> bc19bfe752e19fc7c17da7ddfc9168339a021716
 }
