@@ -1,0 +1,104 @@
+body {
+  background-color: #ecf0f1;
+  margin-top: 10px;
+}
+
+.joueurs {
+  position: absolute;
+}
+
+#player1 {
+  margin-top: 120px;
+}
+
+#player2 {
+  margin-top: 280px;
+}
+
+#finish-line {
+  right: 20%;
+  height: 100%;
+  border-right: 10px dashed #34495e;
+  width: 1px;
+  position: absolute;
+  top: 0;
+}
+
+#winner, #countdown {
+  border: 3px solid #7f8c8d;
+  border-radius: 5px;
+  box-shadow: -10px 10px #7f8c8d;
+  position: absolute;
+  top: 22%;
+  left: 40%;
+  color: #ecf0f1;
+  padding: 50px 100px;
+  background-color: #95a5a6;
+}
+
+#winner a {
+  color: #34495e;
+  font-size: 18px;
+}
+
+#start-game {
+  position: absolute;
+  left: 42%;
+  top: 30%;
+}
+
+.btn-start {
+  color: #fff;
+  background-color: #e74c3c;
+  border: 3px solid #c0392b;
+  border-bottom: 10px solid #c0392b;
+  text-shadow: 0px 1px 1px #95a5a6;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  line-height: 160px;
+  font-size: 30px;
+}
+
+.btn-start:hover {
+  color: #fff;
+  border: 3px solid #c0392b;
+  border-top: 10px solid #c0392b;
+}
+
+#player-names {
+  position: absolute;
+  left: 41%;
+  top: 30%;
+}
+
+.versus {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  color: #7f8c8d;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  border: 2px solid #f39c12;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.btn-players {
+  font-size: 22px;
+  color: #fff;
+  background-color: #f1c40f;
+  border: 2px solid #f39c12;
+  border-bottom: 10px solid #f39c12;
+  font-size: 25px;
+  width: 100% ;
+}
+
+.btn-players:hover {
+  color: #fff;
+  border: 2px solid #f39c12;
+  border-top: 10px solid #f39c12;
+}

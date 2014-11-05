@@ -16,7 +16,12 @@ $(function() {
           };
           // when player reach 80% of the screen width
           // show the winner card
-          if ( $('.joueurs').position().left > $('#finish-line').position().left ) {
+          if ( $('#player1').position().left > $('#finish-line').position().left ) {
+            $('#winner .who').text('Player 1');
+            $('#winner').show();
+          };
+          if ( $('#player2').position().left > $('#finish-line').position().left ) {
+            $('#winner .who').text('Player 2');
             $('#winner').show();
           };
         });
